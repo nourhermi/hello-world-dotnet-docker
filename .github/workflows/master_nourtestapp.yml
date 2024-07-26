@@ -25,7 +25,7 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish "C:\Path\To\Your\Project\app1.csproj" -c Release -o "C:\Program Files\dotnet\myapp"
+        run: ddotnet publish "C:\Users\YourUsername\Projects\app1\app1.csproj" -c Release -o "C:\Program Files\dotnet\myapp"
 
 
       - name: Upload artifact for deployment job
